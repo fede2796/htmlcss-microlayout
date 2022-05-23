@@ -1,0 +1,68 @@
+.img-container{
+    background-color: pink;
+}
+
+img{
+    width: 100%;
+}
+/*Product-card*/
+.product-card{
+    display: flex;
+    padding: 10px 10px;
+}
+.product-card .start,
+.middle,
+.end{
+    width: 33%;
+}
+/*START*/
+.start{
+    text-align: center;
+}
+.start img{
+    width: 50%;
+}
+.red{
+    color: red;
+    text-decoration: line-through;
+}
+.btn_offerts{
+    margin-top: 10px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.offerts{
+    margin-top: 5px;
+    text-align: left;
+}
+.offerts ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.offerts li{
+    margin-right: 0.5rem;
+    display: flex;
+}
+.offerts i{
+    vertical-align: text-top;
+    margin-top: 5px;
+}
+.black span{
+    font-size: 18px;
+    font-weight:bold; 
+    margin-left: 5px; 
+}
+.preno{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+/*Middle*/
+.middle{
+    text-align: center;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgray;
+}
