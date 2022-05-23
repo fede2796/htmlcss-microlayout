@@ -10,10 +10,14 @@ img{
     display: flex;
     padding: 10px 10px;
 }
-.product-card .start,
-.middle,
-.end{
-    width: 33%;
+.product-card .start{
+    width: 30%;
+}
+.product-card .middle{
+    width: 20%;
+}
+.product-card .end{
+    width: 50;
 }
 /*START*/
 .start{
@@ -65,4 +69,83 @@ img{
     text-align: center;
     border-left: 1px solid lightgrey;
     border-right: 1px solid lightgray;
+}
+.hotel .red{
+    color: red;
+    text-decoration: none;
+}
+.hotel p{
+   margin-bottom: 0;
+}
+.line{
+    width: 80%;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.see{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.see p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+/*END*/
+.end .squares{
+    display: flex;
+    margin-left: 1rem;
+}
+.end .squares .square{
+    width: 1rem;
+    height: 1rem;
+    background-color: green;
+    border-radius: 50px;
+    margin-right: 0.3rem;
+    margin-top: 0.4rem;
+}
+.squares p{
+    border-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: lightgrey;
+}
+.squares a{
+    text-decoration: none;
+    color: lightgrey;
+    margin-left: 4px;
+}
+.end span{
+    margin-left: 1rem;
+    display: flex;
+    font-size: 15px;
+}
+.end ul{
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+}
+.end li{
+    display: flex;
+    padding-top: 5px;
+}
+.description{
+    margin-left: 5px;
+}
+.end i{
+    margin-top: 5px;
+}
+.description span{
+    border-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: lightgrey;
+    margin-left: 0;
+}
+.description a{
+    text-decoration: none;
+    color: black;
 }
